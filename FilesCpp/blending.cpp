@@ -1,3 +1,11 @@
+
+/*
+GL_BLEND es una constante utilizada en OpenGL que se refiere a la función de mezcla
+(blending) de píxeles. Esta función permite combinar el color de un fragmento de píxel 
+que se está dibujando con el color de los píxeles ya presentes en el framebuffer,
+ en lugar de simplemente reemplazarlos.
+*/
+
 #include <GL/glut.h>
 
 void display() {

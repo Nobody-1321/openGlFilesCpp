@@ -1,6 +1,6 @@
 /*
     Primeros pasos con opengl y la libreira GLUT 
-    compilacion g++ reShape.cpp -o inicioX -lGL -lGLU -lglut  
+    compilacion g++ iniciandoOpengl.cpp -o inicioX -lGL -lGLU -lglut  
     -------------------------------
 */
 #include<GL/glut.h>

@@ -44,8 +44,7 @@ void lineDda(int x0, int y0, int xEnd, int yEnd){
         y += yIncrement;
         setPixel(rounds(x), rounds(y));
     }
-    //good acabo de descubrir que += no significa que siempre se esta sumando o iterando positivamente, 
-    //c=20 y=-1 c+=y la c va a ser 19 
+ 
 }
 
 void display(){

@@ -1,3 +1,25 @@
+
+/*
+
+La función glShadeModel(GL_SMOOTH) es una llamada de OpenGL que se utiliza para configurar el 
+modelo de sombreado de caras en suavizado (smooth shading).
+
+En OpenGL, hay dos modelos principales de sombreado de caras: GL_FLAT y GL_SMOOTH:
+
+GL_FLAT: Este modelo calcula un color para cada cara de un objeto basándose en el color 
+del vértice definido para esa cara. Todos los píxeles dentro de una cara se pintan con 
+el mismo color. Este modelo proporciona un aspecto de sombreado "plano", donde cada 
+cara tiene un solo color.
+
+GL_SMOOTH: En cambio, este modelo calcula un color para cada píxel dentro de una cara interpolando
+suavemente los colores de los vértices que forman la cara. Esto crea una apariencia de sombreado
+suave y gradiente dentro de la cara, lo que hace que los objetos parezcan más suaves y más 
+realistas.
+
+*/
+
+
+
 #include<GL/glut.h>
 
 void display(){

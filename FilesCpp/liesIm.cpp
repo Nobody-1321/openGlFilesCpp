@@ -49,7 +49,7 @@ void display(){
    
     glEndList();
   
-    glCallList (1);
+    glCallList (2); //llamado a la lista por identificador 
 
     glFlush();
 }
